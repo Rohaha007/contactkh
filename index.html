@@ -340,7 +340,37 @@
         .submit:hover {
             background-color: #e55a45;
         }
-        
+
+
+        .animationContact {
+            display: inline-block;
+            animation: tada 1.5s infinite;
+            color: #1a3a5c;
+        }
+        @keyframes tada {
+            0%, 100% {
+                transform: scale(1) rotate(10deg);
+            }
+            10%, 20% {
+                transform: scale(0.9) rotate(-5deg);
+            }
+            30%, 50%, 70%, 90% {
+                transform: scale(1.1) rotate(5deg);
+            }
+            40%, 60%, 80% {
+                transform: scale(1.1) rotate(-5deg);
+            }
+        }
+        .animationContact:hover {
+            color: #2e69a9;
+            transform: scale(1.1);
+            transition: .2s;
+            text-shadow:
+                0 0 2px #000967,
+                0 0 2px #000967,
+                0 0 2px #000967;
+        }
+
     </style>
 </head>
 
@@ -440,7 +470,7 @@
     
    <br><br><br>
    <h2 align=center style="font-size: 33px; font-family: Khmer OS Siemreap;" > កុំរង់ចាំយូរ </h2>
-    <h2  align="center" style="font-family: Khmer OS Siemreap; font-size: 50px; margin-top: -34px; margin-left: -10px;"> <b> <u style="color: #006ee4;"> <a href="https://rohaha007.github.io/video/" style="color: #006ee4;"> ទាក់ទងមកពួកយើង </a></u> </b> </h2>
+    <h2  align="center" style="font-family: Khmer OS Siemreap; font-size: 50px; margin-top: -34px; margin-left: -10px;"> <b> <u> <a href="https://rohaha007.github.io/video/"  class="animationContact"> ទាក់ទងមកពួកយើង </a></u> </b> </h2>
 
 
   <hr>
